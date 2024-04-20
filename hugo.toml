@@ -1,0 +1,24 @@
+baseURL = 'https://demonaarwu.github.io/'
+languageCode = 'zh-TW'
+title = "Aeternus - Aaron Wu's Blog"
+theme = 'etch'
+enableInlineShortcodes = true
+pygmentsCodeFences = true
+pygmentsUseClasses = true
+
+
+[params]
+  description = "Where You Can Escape from Modern World"
+  copyright = "Copyright © 2024 Aaron Wu"
+  dark = 'off'
+  highlight = true
+
+[permalinks]
+  posts = "/:title/"
+
+[markup.goldmark.renderer]
+  # Allow HTML in Markdown
+  unsafe = true
+
+  [markup.tableOfContents]
+    ordered = true

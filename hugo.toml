@@ -1,24 +1,85 @@
-baseURL = 'https://demonaarwu.github.io/'
-languageCode = 'zh-TW'
-title = "Aeternus - Aaron Wu's Blog"
-theme = 'etch'
-enableInlineShortcodes = true
-pygmentsCodeFences = true
-pygmentsUseClasses = true
+baseurl = "https://demonaarwu.github.io/"
+languageCode = "zh-tw"
+theme = "hugo-theme-stack"
+title = "Aaron Wu"
+DefaultContentLanguage = "zh"
+hasCJKLanguage = true
 
-
-[params]
-  description = "Where You Can Escape from Modern World"
-  copyright = "Copyright © 2024 Aaron Wu"
-  dark = 'off'
-  highlight = true
+[pagination]
+pagerSize = 10
 
 [permalinks]
-  posts = "/:title/"
+post = "/p/:slug/"
+page = "/:slug/"
+
+[params]
+mainSections = [ "post" ]
+featuredImageField = "image"
+rssFullContent = true
+
+  [params.footer]
+  since = 2024
+
+  [params.dateFormat]
+  published = "2006-01-02"
+
+  [params.sidebar]
+  subtitle = "程式設計/文學/動漫/體育"
+
+    [params.sidebar.avatar]
+    enabled = true
+    local = true
+    src = "img/avatar.png"
+
+  [params.article]
+  math = false
+  toc = true
+  readingTime = false
+
+[params.imageProcessing.cover]
+enabled = true
+
+[params.imageProcessing.content]
+enabled = true
+
+[params.colorScheme]
+toggle = false
+default = "light"
+
+[related]
+includeNewer = true
+threshold = 60
+toLower = false
+
+  [[related.indices]]
+  name = "tags"
+  weight = 100
+
+  [[related.indices]]
+  name = "categories"
+  weight = 200
+
+[markup.goldmark.extensions.passthrough]
+enable = true
+
+  [markup.goldmark.extensions.passthrough.delimiters]
+  block = [ [ "\\[", "\\]" ], [ "$$", "$$" ] ]
+  inline = [ [ "\\(", "\\)" ] ]
 
 [markup.goldmark.renderer]
-  # Allow HTML in Markdown
-  unsafe = true
+unsafe = true
 
-  [markup.tableOfContents]
-    ordered = true
+[markup.tableOfContents]
+endLevel = 4
+ordered = true
+startLevel = 2
+
+[markup.highlight]
+noClasses = false
+codeFences = true
+guessSyntax = true
+lineNoStart = 1
+lineNos = true
+lineNumbersInTable = true
+tabWidth = 4
+style = "xcode"

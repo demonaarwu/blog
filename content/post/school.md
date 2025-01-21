@@ -1,7 +1,8 @@
 +++
 title = '學校'
 date = 2024-11-17T23:21:33+08:00
-draft = false
+draft = true
+hidden = true
 +++
 
 最近沒國中那麼在乎成績了，也許是因為少了點使命吧。

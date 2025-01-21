@@ -1,7 +1,8 @@
 +++
 title = '一輩子的事'
 date = 2024-10-02T21:41:49+08:00
-draft = false
+draft = true
+hidden = true
 +++
 
 最近總覺得生活無聊，於是常去網路上划水。

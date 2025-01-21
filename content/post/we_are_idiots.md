@@ -1,7 +1,8 @@
 +++
 title = '所有人都是笨蛋'
 date = 2024-10-04T20:43:43+08:00
-draft = false
+draft = true
+hidden = true
 +++
 
 所有人都是笨蛋 — 你是笨蛋，我也是笨蛋，愛因斯坦也是笨蛋。

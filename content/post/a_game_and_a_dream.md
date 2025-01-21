@@ -1,7 +1,8 @@
 +++
 title = '一場遊戲一場夢'
 date = 2024-10-06T23:29:02+08:00
-draft = false
+draft = true
+hidden = true
 +++
 
 考高中時，大人說會考完就輕鬆了。

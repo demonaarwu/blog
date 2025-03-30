@@ -2,6 +2,7 @@ baseurl = "https://demonaarwu.github.io/"
 languageCode = "zh-tw"
 theme = "hugo-theme-stack"
 title = "Aaron Wu"
+
 DefaultContentLanguage = "zh"
 hasCJKLanguage = true
 
@@ -75,11 +76,15 @@ ordered = true
 startLevel = 2
 
 [markup.highlight]
-noClasses = false
+noClasses = true
 codeFences = true
 guessSyntax = true
 lineNoStart = 1
 lineNos = true
 lineNumbersInTable = true
 tabWidth = 4
-style = "xcode"
+style = "modus-operandi"
+
+[imaging]
+  quality = 100
+  anchor = "smart"  # Anchor for cropping. Options include Smart and Center.

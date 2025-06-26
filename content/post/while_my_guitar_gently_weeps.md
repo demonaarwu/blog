@@ -12,7 +12,7 @@ I look at the floor and I see it needs sweeping<br>
 Still, my guitar gently weeps<br>
 我遙望眾人，看見那沉睡著的愛<br>
 當我的吉他輕輕啜泣<br>
-我看著地板，發現它需要被打掃<br>
+我看著地板，發現它需要整理<br>
 我的吉他仍輕輕啜泣<br>
 
 I don't know why nobody told you<br>
